@@ -1,7 +1,7 @@
-spis = []
+spis = [] # создание списка
  
-for num in range (1,21):
+for num in range (21):# зполнение списка
 
-    spis.append(num ** 2)
+    spis.append(num ** 2)# список квадратов
 
-print(spis)
+print(spis)# вывод списка
