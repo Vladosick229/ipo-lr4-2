@@ -1,7 +1,2 @@
-spis = [] # создание списка
- 
-for num in range (21):# зполнение списка
-
-    spis.append(num ** 2)# список квадратов
-
+spis =[x**2 for x in range(21) if x % 2 ==0]
 print(spis)# вывод списка
